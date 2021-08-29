@@ -1,0 +1,20 @@
+﻿<Window x:Name="MainWindow1" x:Class="ElasticityModulusCalculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ElasticityModulusCalculator"
+        mc:Ignorable="d" Height="600" Width="800" Title="塑料管管周回填材料变形模量计算程序" Icon="计算机icon.png" ResizeMode="NoResize">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="163*"/>
+            <ColumnDefinition Width="234*"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock HorizontalAlignment="Left" Margin="59,10,0,493" TextWrapping="Wrap" RenderTransformOrigin="1.569,0.834" FontWeight="Bold" FontSize="20" Width="180" TextAlignment="Center" LineHeight="35"><Run Text="塑料管管周回填材料"/><LineBreak/><Run Text="变形模量计算程序"/></TextBlock>
+        <Button x:Name="开始计算" Content="开始计算" HorizontalAlignment="Left" Margin="36,98,0,0" VerticalAlignment="Top" Width="74" Click="Button_Click" Background="#FF54AFFB" BorderBrush="{x:Null}" Foreground="White" IsDefault="True">
+            <Button.Effect>
+                <DropShadowEffect BlurRadius="2" ShadowDepth="2"/>
+            </Button.Effect>
+        </Button>
+    </Grid>
+</Window>
